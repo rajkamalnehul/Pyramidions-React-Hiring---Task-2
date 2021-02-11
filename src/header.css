@@ -1,0 +1,15 @@
+/** @format */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  justify-content: space-between;
+  color: #b8b8b6;
+  border-bottom: 1px solid #b8b8b6;
+}
+
+.header_items {
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+/** @format */
+
+.card-cont {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.card-border {
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #a0a0a0, -5px -5px 8px #ececec;
+}
+
+.card-outlets {
+  display: flex;
+  justify-content: flex-end;
+  color: #ff6600;
+  cursor: pointer;
+}
+
+.res-img {
+  max-height: 400px;
+}
+
+.review-container {
+  display: flex;
+  color: white;
+  background-color: #5ae595;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-cont {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
